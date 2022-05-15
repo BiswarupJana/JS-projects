@@ -1,0 +1,35 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+    
+}
+
+.nav_bar{
+    
+    text-align: center;
+    height: 90px;
+    background-color: rgb(130, 130, 230);
+    font-size: 40px;
+    border-radius: 40px;
+    
+    
+}
+
+.container{
+    border-radius: 10px;
+    background:rgb(255, 255, 255) ;
+    animation: navmove 10s infinite;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+@keyframes navmove {
+    from {background-color: white;}
+    to {background-color: rgba(34, 29, 29, 0.651);}
+}
+ .left_container{
+     
+     text-align: center;
+     justify-content: center;
+ }
