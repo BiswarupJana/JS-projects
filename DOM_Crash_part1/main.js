@@ -187,11 +187,51 @@
 // }
 
 var button = document.getElementById('button');
+var box = document.getElementById('box');
+var select =document.querySelector('select');
 // button.addEventListener('click',runEvent);
 // button.addEventListener('dblclick',runEvent);
-button.addEventListener('mousedown',runEvent);
+// button.addEventListener('mousedown',runEvent);
+// button.addEventListener('mouseup',runEvent);
 
+// box.addEventListener('mouseenter',runEvent);
+// box.addEventListener('mouseleave',runEvent);
+
+// box.addEventListener('mouseover',runEvent);
+// box.addEventListener('mouseout',runEvent);
+
+// box.addEventListener('mousemove',runEvent);
+
+var intemInput =document.querySelector('input[type="text"]');
+var form = document.querySelector('form');
+
+// intemInput.addEventListener('keydown', runEvent);
+// intemInput.addEventListener('keyup', runEvent);
+// intemInput.addEventListener('keypress', runEvent);
+
+// intemInput.addEventListener('focus',runEvent);
+// intemInput.addEventListener('blur',runEvent);
+
+
+// intemInput.addEventListener('cut',runEvent);
+// intemInput.addEventListener('paste',runEvent);
+
+// intemInput.addEventListener('input',runEvent);
+
+select.addEventListener('change',runEvent);
+select.addEventListener('input',runEvent);
+
+form.addEventListener('submit',runEvent);
 function runEvent(e){
+    e.preventDefault();
     console.log('EVENT TYPE: '+e.type);
 
+    console.log(e.target.value);
+    
+    // document.getElementById('output').innerHTML='<h3>'+e.target.value+'</h3>'
+    // output.innerHTML ='<h3>MouseX: '+e.offsetX+'</h3> <h3>MouseY: '+e.offsetY+'</h3>'
+    // box.style.backgroundColor="rgb("+e.offsetX+","+e.offsetY+",40)";
+    // document.body.style.backgroundColor="rgb("+e.offsetX+","+e.offsetY+",40)";
+    
+     
 }
