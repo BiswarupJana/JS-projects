@@ -154,26 +154,44 @@
 // container.insertBefore(newDiv, h1);
 
 
+// Events
 
-
-var button = document.getElementById('button').addEventListener('click', buttonClick);
-function buttonClick(e){
-    // console.log('Button clicked');
-    // document.getElementById('header-title').textContent= 'changed';
-    // document.querySelector('#main').style.backgroundColor = 'blue';
-    // console.log(e);
-    // console.log(e.target);
-    // console.log(e.target.id);
-    // console.log(e.target.className);
-    // console.log(e.target.classList);
-    // var output = document.getElementById('output');
-    // output.innerHTML= '<h3>'+e.target.id+'</h3>';
+// var button = document.getElementById('button').addEventListener('click', buttonClick);
+// function buttonClick(e){
+//     // console.log('Button clicked');
+//     // document.getElementById('header-title').textContent= 'changed';
+//     // document.querySelector('#main').style.backgroundColor = 'blue';
+//     // console.log(e);
+//     // console.log(e.target);
+//     // console.log(e.target.id);
+//     // console.log(e.target.className);
+//     // console.log(e.target.classList);
+//     // var output = document.getElementById('output');
+//     // output.innerHTML= '<h3>'+e.target.id+'</h3>';
     
-    // types of e
-    // console.log(e.type);
+//     // types of e
+//     // console.log(e.type);
 
-    //position of the x axis
-    console.log(e.clientX);
+//     //position of the x axis
+//     // console.log(e.clientX);
+//     // console.log(e.clientY);
     
+//     // console.log(e.offsetX);
+//     // console.log(e.offsetY);
+
+//     // console.log(e.altKey);
+//     // console.log(e.ctrlKey);
+//     // console.log(e.shiftKey);
+
+
+// }
+
+var button = document.getElementById('button');
+// button.addEventListener('click',runEvent);
+// button.addEventListener('dblclick',runEvent);
+button.addEventListener('mousedown',runEvent);
+
+function runEvent(e){
+    console.log('EVENT TYPE: '+e.type);
 
 }
