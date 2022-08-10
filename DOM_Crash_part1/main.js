@@ -223,7 +223,7 @@ select.addEventListener('input',runEvent);
 
 form.addEventListener('submit',runEvent);
 function runEvent(e){
-    e.preventDefault();
+    e.preventDefault(); kkkk
     console.log('EVENT TYPE: '+e.type);
 
     console.log(e.target.value);
