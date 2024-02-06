@@ -4,9 +4,7 @@
 </div>
 
 > [!NOTE]  
-> This repo was created in 2019 and the questions provided here are therefore based on the JavaScript syntax and behaviour at that time. Since JavaScript is a constantly evolving language, there are newer language features that are not covered by the questions here.
 
----
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
